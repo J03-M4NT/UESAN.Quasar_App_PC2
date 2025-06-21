@@ -1,12 +1,11 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-toolbar-title>
+    <q-header elevated class="bg-primary text-white">
+      <q-toolbar class="column items-center q-pt-md q-pb-md">
+        <img src="~assets/convertion-logo.webp" alt="Logo Conversion" style="height: 144px; width: auto; margin-bottom: 8px;" />
+        <q-toolbar-title class="text-center q-pa-none" style="width: 100%;">
           Conversion App
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
