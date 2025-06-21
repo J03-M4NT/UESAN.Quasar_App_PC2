@@ -2,7 +2,7 @@
   <q-card class="q-pa-xl q-mx-auto" style="max-width: 500px; min-width: 350px;">
     <div class="text-h5 text-center text-primary q-mb-md flex flex-center items-center">
       <q-icon name="trending_up" color="green" size="32px" class="q-mr-sm" />
-      Conversión de Monedas
+      <span style="font-weight: bold;">Conversión de Monedas</span>
     </div>
     <q-form @submit.prevent="convertCurrency">
       <q-input
